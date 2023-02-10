@@ -11,5 +11,12 @@ struct HabitItem: Identifiable, Codable, Equatable {
     var id = UUID()
     let title: String
     let description: String
-    var times: Int = 0
+    var times: Int
+    
+    var validTitle: Bool {
+        if title.isEmpty {
+            return false
+        }
+        return true
+    }
 }

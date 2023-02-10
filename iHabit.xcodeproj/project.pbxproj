@@ -12,6 +12,7 @@
 		F94885492993E10F00B05DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94885482993E10F00B05DF4 /* Assets.xcassets */; };
 		F948854D2993E10F00B05DF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948854C2993E10F00B05DF4 /* Preview Assets.xcassets */; };
 		F94885542993E40300B05DF4 /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94885532993E40300B05DF4 /* HabitItem.swift */; };
+		F98667662996DB820052BD0D /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98667652996DB820052BD0D /* RandomColor.swift */; };
 		F9C372DE2993E98B00B2DACA /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C372DD2993E98B00B2DACA /* Habits.swift */; };
 		F9C372E02993EB6600B2DACA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C372DF2993EB6600B2DACA /* AddView.swift */; };
 		F9C372E22993EEC300B2DACA /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C372E12993EEC300B2DACA /* HabitView.swift */; };
@@ -25,6 +26,7 @@
 		F948854A2993E10F00B05DF4 /* iHabit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iHabit.entitlements; sourceTree = "<group>"; };
 		F948854C2993E10F00B05DF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F94885532993E40300B05DF4 /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		F98667652996DB820052BD0D /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 		F9C372DD2993E98B00B2DACA /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
 		F9C372DF2993EB6600B2DACA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		F9C372E12993EEC300B2DACA /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				F94885442993E10A00B05DF4 /* iHabitApp.swift */,
 				F94885462993E10A00B05DF4 /* ContentView.swift */,
+				F98667652996DB820052BD0D /* RandomColor.swift */,
 				F9C372E12993EEC300B2DACA /* HabitView.swift */,
 				F9C372DF2993EB6600B2DACA /* AddView.swift */,
 				F94885532993E40300B05DF4 /* HabitItem.swift */,
@@ -157,6 +160,7 @@
 				F9C372E22993EEC300B2DACA /* HabitView.swift in Sources */,
 				F9C372DE2993E98B00B2DACA /* Habits.swift in Sources */,
 				F94885542993E40300B05DF4 /* HabitItem.swift in Sources */,
+				F98667662996DB820052BD0D /* RandomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

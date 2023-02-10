@@ -19,6 +19,7 @@ struct ContentView: View {
                     } label: {
                         HStack{
                             Text(habit.title)
+                                .foregroundColor(.random)
                             Spacer()
                             Text(habit.times, format: .number)
                         }
